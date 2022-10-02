@@ -1,8 +1,10 @@
 import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_extension_text_translation/extension_page.dart';
 import 'package:firebase_extension_text_translation/firebase_options.dart';
 import 'package:flutter/material.dart';
 
-Future<void> main() async {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
 
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
@@ -18,11 +20,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
        
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home:  const ExtensionPage(),
     );
   }
 }
