@@ -7,7 +7,7 @@ Firebase extension is used in this project
 ## Screens
 
 
-https://user-images.githubusercontent.com/57758337/193460513-391d4414-9db2-4590-9b25-a81b564278f3.mp4
+
 
 
 
