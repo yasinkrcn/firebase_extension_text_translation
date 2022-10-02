@@ -97,25 +97,25 @@ class _ExtensionPageState extends State<ExtensionPage> {
                           const Flag.fromString('TR', height: 40, width: 40),
                           ListTile(
                             title: Text(translatedWord['translated']['tr']),
-                            subtitle: const Text('Türkçe'),
+                            subtitle: const Text('Turkish'),
                           ),
                           const Divider(thickness: 2),
                           const Flag.fromString('DE', height: 40, width: 40),
                           ListTile(
                             title: Text(translatedWord['translated']['de']),
-                            subtitle: const Text('Almanca'),
+                            subtitle: const Text('German'),
                           ),
                           const Divider(thickness: 2),
                           const Flag.fromString('US', height: 40, width: 40),
                           ListTile(
                             title: Text(translatedWord['translated']['en']),
-                            subtitle: const Text('İngilizce'),
+                            subtitle: const Text('English'),
                           ),
                           const Divider(thickness: 2),
                           const Flag.fromString('ES', height: 40, width: 40),
                           ListTile(
                             title: Text(translatedWord['translated']['es']),
-                            subtitle: const Text('İspanyolca'),
+                            subtitle: const Text('Spanish'),
                           ),
                         ],
                       );
